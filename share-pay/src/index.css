@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgba(36,153,214,1);
+  background: linear-gradient(86deg, rgba(2,0,36,1) 0%, rgba(36,153,214,1) 0%, rgba(255,255,255,1) 100%); 
+  background-size: cover; */
+  background: url(assets/images/app_bg.jpg)/cover;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}

@@ -1,0 +1,31 @@
+.dt-wrap {
+    border: solid 1px #ddd;
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.dt-title {
+    border-bottom: solid 1px;
+    min-width: 100px;
+    text-align: center;
+    max-width: 80%;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dt-pagination {
+    border: solid 1px #ddd;
+    margin: 0;
+    float: right;
+    padding: 5px;
+}
+.dt-pagination ul.pagination{
+    margin: 0;
+}
+.dt-pagination ul.pagination .page-item{
+    cursor: pointer;
+}
+.dt-search {
+    float: right;
+}

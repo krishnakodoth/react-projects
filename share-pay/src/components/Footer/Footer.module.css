@@ -1,0 +1,20 @@
+.Footer{
+    border: solid 1px;
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    justify-content: flex-end;
+}
+.Footer p{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    align-items: flex-end;
+    margin: 0;
+    font-size: 11px;
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+.has-error .help-block {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+.p-t-12 {
+    padding-top: 12px;
+}
+.txt1 {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 5px;
+    color: #999;
+}
+.txt2 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
+.txt2 span {
+    padding: 0 10px;
+}
+.text-center {
+    text-align: center!important;
+}
+.link{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link:hover{
+    color: #0056b3;
+}
+.p-t-100 {
+    padding-top: 100px;
+}

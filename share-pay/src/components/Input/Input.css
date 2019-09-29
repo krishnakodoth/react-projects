@@ -1,0 +1,22 @@
+.form-group .react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+.chk-grouo {
+    border: solid 1px #ddd;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+.form-check.form-check-inline {
+    border: solid 1px #ddd;
+    padding: 0 5px;
+    margin: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 1px 1px 2px #ccc;
+    width: 100px;
+    text-overflow: ellipsis;
+}

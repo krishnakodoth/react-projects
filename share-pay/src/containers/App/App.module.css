@@ -1,0 +1,98 @@
+a.navbar-brand {
+  border: solid 1px;
+  background-color: white;
+  position: relative;
+  width: 250px;
+  display: inline-block;
+}
+a.navbar-brand img.logo {
+  position: absolute;
+  width: 50px;
+  top: 0;
+}
+.navbar-brand span {
+  padding-left: 55px;
+  font-family: fantasy;
+  color: black;
+  font-size: 25px;
+}
+.col-12.rs-box {
+  box-shadow: 0 0 15px #000;
+  /* height: 400px;
+  overflow-x: auto; */
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.col-12.rs-box .row {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: solid 1px #ccc;
+}
+.col-12.rs-box .article-wrapper {
+  position: relative;
+  text-align: center;
+}
+.col-12.rs-box h3 {
+  border-bottom: solid 1px #ddd;
+  text-align: left;
+}
+.col-12.rs-box img {
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 3px;
+}
+h3.loading-indicator {
+  border: 0 none !important;
+  margin-bottom: 60px;
+  text-align: center !important;
+  color: #286090;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+/**---------------------------
+| Custom styles
+---------------------------**/
+
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+  color: #a94442;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+  font-size: 0.8em;
+}
+
+.app-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;  
+  padding: 10px;
+}
+.box{
+  border: solid 1px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #000;
+}
+.td-amount {
+  text-align: right;
+  font-weight: bold;
+  color: #18a805;
+  display: block;
+  padding-right: 10px;
+  width: 100%;
+}
+.td-amount.low {
+  color: #E13300;
+}
